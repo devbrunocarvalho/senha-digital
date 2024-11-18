@@ -1,0 +1,118 @@
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    background-image: url(../TATICO/imagens/background-project.jpg);
+    background-size: cover;
+}
+.topo {
+    padding-top: 5px;
+    margin-top: 0px;
+    background-image: url(./imagens/background-logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-box-shadow: 10px 71px 300px 14px rgba(0,0,0,0.75);
+    box-shadow: 10px 71px 300px 14px rgba(0,0,0,0.75);
+
+}
+.logomarca{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: auto;
+    flex-direction: column;
+}
+
+.painel {
+    padding-top:10%; 
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: auto;
+    flex-direction: column;
+}
+
+.senhaNormal {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 70px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: azure;
+    border: 2px solid;
+    border-color: azure;
+    border-radius: 15px;
+}
+.senhaNormal:hover{
+    background-color:brown;
+    color: beige;
+}
+
+.btnNormal {
+    text-decoration: none !important;
+}
+
+.senhaPreferencial {
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: black;
+    margin-top: 20px ;
+    font-size: 70px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: azure;
+    border: 2px solid;
+    border-color: azure;
+    border-radius: 15px;
+}
+.senhaPreferencial:hover{
+    color: transparent;
+    background-image: url(../TATICO/imagens/preferencial.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color:brown;
+}
+
+.rodape {
+    margin-top: 12%;
+    background-image: url(../TATICO/imagens/background-logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-box-shadow: 10px 71px 300px 14px rgba(0,0,0,0.75);
+    box-shadow: 10px 71px 300px 14px rgba(0,0,0,0.75);    
+}
+
+.texto-rodape{
+    font-family: "Bebas Neue", sans-serif;
+    color:beige;
+    font-size: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: auto;
+    flex-direction: column;
+    
+}
+
+.texto-rodape-dois {
+    font-family: "Bebas Neue", sans-serif;
+    color:beige;
+    font-size: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: auto;
+    flex-direction: column;
+    
+}
